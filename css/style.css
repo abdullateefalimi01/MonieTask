@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
@@ -10,28 +11,56 @@ body {
   background-color: white;
   font-size: 1.5rem;
 }
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
 
 nav {
   display: flex;
-  padding: 2rem;
+  padding: 2rem 10rem;
   justify-content: space-between;
-  height: 10vh;
+  align-items: center;
+  height: 15vh;
+  background-color: rgb(39, 33, 44);
 }
-.logo-box {
-  color: blue;
+.logo {
+  height: 50%;
 }
 .main-nav,
 .box-login {
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  gap: 4rem;
   list-style: none;
 }
 .main-nav li > a,
 .box-login li > a {
   text-decoration: none;
-}
-.box-login li:last-child {
-  background-color: blue;
-  height: 2.5rem;
   color: white;
+}
+.sec-header {
+  display: grid;
+  height: 85vh;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+.image-box {
+  width: 100%;
+  padding: 2rem 0 0 7rem;
+}
+.image-box img {
+  width: 80%;
+}
+.text-box {
+  padding-top: 10rem;
+}
+.text-box h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-box p {
+  font-size: 1.7rem;
+  margin-top: 1rem;
 }
