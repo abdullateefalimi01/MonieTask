@@ -18,11 +18,12 @@ body {
 
 nav {
   display: flex;
-  padding: 2rem 10rem;
+  padding: 2rem 15rem;
   justify-content: space-between;
   align-items: center;
   height: 15vh;
   background-color: #217074;
+  margin-bottom: 1rem;
 }
 .logo {
   height: 50%;
@@ -41,26 +42,29 @@ nav {
 }
 .sec-header {
   display: grid;
-  height: 85vh;
+  height: 80vh;
   grid-template-columns: 1fr 1fr;
-  gap: 5rem;
 }
-.text-box,
+
 .image-box {
-  padding: 10rem 5rem;
-}
-.image-box {
-  width: 100%;
-  padding: 2rem 0 0 7rem;
+  padding: 2rem 0 0 4rem;
 }
 .image-box img {
   width: 80%;
+}
+.text-box {
+  padding: 10rem 5rem 5rem 6rem;
 }
 
 .header-hero {
   font-size: 4rem;
   margin-bottom: 1rem;
   color: #217074;
+}
+
+.header-hero span {
+  background-color: #217074;
+  color: white;
 }
 .paragraph-hero {
   font-size: 1.6rem;
