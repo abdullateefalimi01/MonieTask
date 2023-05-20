@@ -22,7 +22,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 15vh;
-  background-color: rgb(39, 33, 44);
+  background-color: #217074;
 }
 .logo {
   height: 50%;
@@ -45,6 +45,10 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
 }
+.text-box,
+.image-box {
+  padding: 10rem 5rem;
+}
 .image-box {
   width: 100%;
   padding: 2rem 0 0 7rem;
@@ -52,15 +56,29 @@ nav {
 .image-box img {
   width: 80%;
 }
-.text-box {
-  padding-top: 10rem;
+
+.header-hero {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #217074;
 }
-.text-box h1 {
-  font-size: 3.5rem;
+.paragraph-hero {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.button-hero {
+  background-color: #217074;
+  padding: 1rem;
+  border: none;
+  color: white;
   margin-bottom: 1rem;
 }
+.link-hero {
+  font-size: 1.5rem;
+}
 
-.text-box p {
-  font-size: 1.7rem;
-  margin-top: 1rem;
+.link-hero a {
+  text-decoration: none;
+  color: #217074;
 }
