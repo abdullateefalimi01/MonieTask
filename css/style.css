@@ -15,6 +15,9 @@ body {
   max-width: 120rem;
   margin: 0 auto;
 }
+header {
+  background-color: black;
+}
 
 nav {
   display: flex;
@@ -22,11 +25,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 15vh;
-  background-color: #217074;
+  background-color: #0000007e;
   margin-bottom: 1rem;
 }
 .logo {
-  height: 50%;
+  height: 80%;
 }
 .main-nav,
 .box-login {
@@ -65,6 +68,7 @@ nav {
 .header-hero span {
   background-color: #217074;
   color: white;
+  padding: 0 1rem;
 }
 .paragraph-hero {
   font-size: 1.6rem;
@@ -74,6 +78,7 @@ nav {
 .button-hero {
   background-color: #217074;
   padding: 1rem;
+  font-size: 1.6rem;
   border: none;
   color: white;
   margin-bottom: 1rem;
