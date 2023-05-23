@@ -5,7 +5,6 @@ nav {
   align-items: center;
   height: 15vh;
   background-color: white;
-  margin-bottom: 1rem;
   border-bottom: 0.2rem solid #ef4444;
 }
 .logo {
@@ -22,9 +21,7 @@ nav {
   text-decoration: none;
   color: #ef4444;
 }
-header {
-  margin-bottom: 1rem;
-}
+
 .sec-header {
   height: 85vh;
 }
@@ -42,7 +39,6 @@ header {
 
 .header-hero {
   font-size: 4rem;
-  margin-bottom: 1rem;
   color: #ef4444;
   line-height: 1.5;
 }
@@ -56,7 +52,6 @@ header {
 }
 .paragraph-hero {
   font-size: 1.6rem;
-  margin-bottom: 1rem;
   line-height: 1.5;
 }
 .button-hero {
@@ -66,7 +61,6 @@ header {
   border: none;
   color: white;
   border-radius: 1.6rem;
-  margin-bottom: 1rem;
 }
 .link-hero {
   font-size: 1.5rem;
@@ -91,14 +85,14 @@ header {
   flex-direction: column;
   align-items: center;
 }
-.how-image__box {
+.how-icon__box {
   border: 0.2rem dotted #ef4444;
   border-radius: 50%;
   padding: 1rem;
   text-align: center;
   margin-bottom: 1rem;
 }
-.how-image__box > ion-icon {
+.how-icon__box > ion-icon {
   color: #ef4444;
 }
 .how-header {
