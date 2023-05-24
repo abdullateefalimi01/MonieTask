@@ -105,3 +105,10 @@ nav {
 .how-text {
   text-align: center;
 }
+.image-box__About img {
+  width: 80%;
+}
+.text-box__About {
+  padding: 15rem 10rem;
+  background-color: #ef4444;
+}
