@@ -35,6 +35,9 @@ nav {
 }
 .text-box {
   padding: 10rem 8rem 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .header-hero,
