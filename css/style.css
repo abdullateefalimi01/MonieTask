@@ -37,7 +37,8 @@ nav {
   padding: 10rem 8rem 2rem 6rem;
 }
 
-.header-hero {
+.header-hero,
+.header-About {
   font-size: 4rem;
   color: #ef4444;
   line-height: 1.5;
@@ -72,7 +73,7 @@ nav {
 }
 
 .sec-how {
-  padding: 0 5rem;
+  padding: 5rem;
 }
 
 .subHow-header {
@@ -105,10 +106,29 @@ nav {
 .how-text {
   text-align: center;
 }
+.sec-About {
+  padding: 5rem 0;
+}
 .image-box__About img {
   width: 80%;
 }
 .text-box__About {
-  padding: 15rem 10rem;
-  background-color: #ef4444;
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.list-About {
+  margin-bottom: 1rem;
+}
+.list-About li {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+}
+.list-About li > ion-icon {
+  color: #ef4444;
+}
+.paragraph-About {
+  font-size: 2rem;
 }
