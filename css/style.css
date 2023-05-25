@@ -134,4 +134,12 @@ nav {
 }
 .paragraph-About {
   font-size: 2rem;
+  background-color: #ef4444;
+  color: white;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 1.6rem;
+}
+.sec-footer {
+  background-color: #ef4444;
 }
