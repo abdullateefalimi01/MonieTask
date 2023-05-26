@@ -142,7 +142,7 @@ nav {
 }
 .sec-footer {
   background-color: white;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 0.5rem solid #ef4444;
 }
 .footer-box {
@@ -155,4 +155,25 @@ nav {
 }
 .subfooter-header {
   color: black;
+}
+.footerbox-image {
+  padding-left: 6rem;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer-list li,
+.footer-list-icon li {
+  list-style: none;
+}
+.footer-list li a,
+.footer-list-icon li a {
+  text-decoration: none;
+  color: #ef4444;
+}
+.footer-list-icon {
+  display: flex;
+  gap: 1rem;
 }
