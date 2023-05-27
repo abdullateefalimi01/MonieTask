@@ -146,11 +146,7 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  height: 70vh;
-}
-.payment-textbox {
-  text-align: center;
-  color: #ef4444;
+  height: 80vh;
 }
 
 /* Slideshow container */
@@ -241,6 +237,36 @@ nav {
   to {
     opacity: 1;
   }
+}
+.sec-advertise {
+  height: 70vh;
+  padding: 0 20rem;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #ef4444;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #f73a3a;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  color: black;
+  overflow: hidden;
 }
 
 .sec-footer {
