@@ -156,17 +156,27 @@ nav {
 /* Slideshow container */
 .payment-container {
   position: relative;
-
+  /* display: flex; */
   margin: auto;
 }
 
 /* Hide the images by default */
 .payment-mySlides {
   display: grid;
-  padding: 0 10rem;
+  gap: 3rem;
+  padding: 0 20rem;
+}
+.payment-mySlides {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 .hide {
   display: none;
+}
+.link a {
+  text-decoration: none;
+  color: #ef4444;
 }
 
 /* Next & previous buttons */
