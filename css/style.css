@@ -9,11 +9,28 @@
 }
 
 .image-box {
-  padding: 2rem 0 0 7rem;
+  position: relative;
+  width: 100%;
 }
-.image-box img {
-  width: 80%;
-  transform: scaleX(-1);
+.image-box::after {
+  content: "";
+  border: 0.5rem solid var(--main-tx-color);
+  position: absolute;
+  top: 3rem;
+  padding: 20rem 30rem;
+  z-index: -1;
+}
+.hero-1 {
+  width: 50rem;
+  position: absolute;
+  top: 7rem;
+  left: 3rem;
+}
+.hero-2 {
+  width: 20rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 2rem;
 }
 .text-box {
   padding: 10rem 8rem 2rem 6rem;
@@ -91,8 +108,13 @@
 .sec-About {
   padding: 5rem 0;
 }
+.image-box__About {
+  width: 100%;
+  padding-top: 6rem;
+}
+
 .image-box__About img {
-  width: 80%;
+  width: 55rem;
 }
 .text-box__About {
   padding: 10rem;
