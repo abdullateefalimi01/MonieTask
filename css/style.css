@@ -1,27 +1,3 @@
-nav {
-  display: flex;
-  padding: 2rem 15rem;
-  justify-content: space-between;
-  align-items: center;
-  height: 15vh;
-  background-color: white;
-  border-bottom: 0.2rem solid #ef4444;
-}
-.logo {
-  height: 50%;
-}
-.main-nav,
-.box-login {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  list-style: none;
-}
-.main-nav li > a {
-  text-decoration: none;
-  color: #ef4444;
-}
-
 .sec-header {
   height: 85vh;
 }
@@ -152,7 +128,7 @@ nav {
 /* Slideshow container */
 .payment-container {
   position: relative;
-  /* display: flex; */
+  display: flex;
   margin: auto;
 }
 
@@ -263,7 +239,7 @@ nav {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
+  padding: 0 1.8rem;
   background-color: white;
   color: black;
   overflow: hidden;

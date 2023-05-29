@@ -54,6 +54,9 @@ body {
 .margin-bottom {
   margin-bottom: 1rem;
 }
+section {
+  margin-bottom: 20rem;
+}
 .section-textbox {
   text-align: center;
   display: flex;
@@ -62,5 +65,28 @@ body {
   margin-bottom: 2rem;
 }
 .section-textbox h1 {
+  color: #ef4444;
+}
+nav {
+  display: flex;
+  padding: 2rem 15rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  background-color: white;
+  border-bottom: 0.2rem solid #ef4444;
+}
+.logo {
+  height: 50%;
+}
+.main-nav,
+.box-login {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+.main-nav li > a {
+  text-decoration: none;
   color: #ef4444;
 }
