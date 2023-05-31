@@ -252,6 +252,7 @@
   background-color: var(--main-tx-color);
   color: var(--main-bg-color);
   font-size: 1.5rem;
+  font-weight: 600;
   cursor: pointer;
   padding: 1.8rem;
   width: 100%;
@@ -269,7 +270,8 @@
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 2rem;
+  padding: 1rem 5rem;
+  line-height: 1.5;
   background-color: var(--main-bg-color);
   color: var(--white);
   overflow: hidden;
