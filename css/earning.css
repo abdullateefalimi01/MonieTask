@@ -1,5 +1,7 @@
-.earn-imagebox {
+.earn-imagebox,
+.earn-textbox {
   width: 100%;
+  padding: 5rem;
 }
 .earn-imagebox img {
   width: 50rem;
