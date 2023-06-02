@@ -1,7 +1,16 @@
 .earn-imagebox,
 .earn-textbox {
   width: 100%;
-  padding: 5rem;
+  margin: 3rem;
+}
+.earn-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0 3rem 0;
+}
+.earn-imagebox {
+  padding: 3rem;
 }
 .earn-imagebox img {
   width: 50rem;
