@@ -1,3 +1,9 @@
+:root {
+  --main-bg-color: #0c1d36;
+  --main-tx-color: #f9cc0b;
+  --white: #ffffff;
+}
+
 .earn-imagebox,
 .earn-textbox {
   width: 100%;
@@ -6,12 +12,16 @@
 .earn-textbox {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1rem;
+  padding: 2rem 0;
 }
 .earn-imagebox {
   padding: 3rem;
 }
 .earn-imagebox img {
   width: 50rem;
+}
+
+.earning-headertext {
+  color: var(--main-tx-color);
 }
