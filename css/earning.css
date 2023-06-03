@@ -2,18 +2,20 @@
   --main-bg-color: #0c1d36;
   --main-tx-color: #f9cc0b;
   --white: #ffffff;
+  --red: #ff0000;
 }
 
 .earn-imagebox,
 .earn-textbox {
   width: 100%;
   margin: 3rem;
+  line-height: 1.5;
 }
 .earn-textbox {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 2rem 0;
+  padding: 2rem 10rem 0 0;
 }
 .earn-imagebox {
   padding: 3rem;
@@ -24,4 +26,15 @@
 
 .earning-headertext {
   color: var(--main-tx-color);
+  font-size: 3.5rem;
+}
+.button-nonlink {
+  background-color: var(--main-tx-color);
+  color: var(--main-bg-color);
+  border: none;
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+.button-nonlink::after {
+  content: "";
 }
