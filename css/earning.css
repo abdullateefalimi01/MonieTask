@@ -14,7 +14,7 @@
 .earn-textbox {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   padding: 2rem 10rem 0 0;
 }
 .earn-imagebox {
@@ -34,7 +34,14 @@
   border: none;
   font-size: 1.7rem;
   padding: 1rem;
+  position: relative;
 }
 .button-nonlink::after {
-  content: "";
+  content: "New and Hot";
+  background-color: var(--red);
+  font-size: 1.7rem;
+  color: var(--white);
+  position: absolute;
+  top: -1rem;
+  right: 0;
 }
