@@ -3,7 +3,6 @@
   --main-bg-color: #0c1d36;
   --main-tx-color: #f9cc0b;
   --white: #ffffff;
-  --light-bt--color: #f3d346;
 }
 
 @font-face {
@@ -44,10 +43,11 @@ body {
   color: var(--main-bg-color);
   padding: 1rem;
   border-radius: 1.6rem;
+  transition: 0.3s;
 }
 .button-color a:active,
 .button-color a:hover {
-  background-color: var(--light-bt--color);
+  background-color: var(--white);
 }
 .link-hero {
   font-size: 1.5rem;
@@ -121,6 +121,7 @@ body {
   text-decoration: none;
   padding: 1rem;
   color: var(--main-tx-color);
+  transition: 0.3s;
 }
 
 .main-nav li > a:active,
@@ -129,7 +130,6 @@ body {
 .button-none a:hover {
   background-color: var(--main-tx-color);
   color: var(--main-bg-color);
-
   width: 10rem;
   border-radius: 1.6rem;
 }

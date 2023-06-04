@@ -43,6 +43,10 @@
   right: -1rem;
   padding: 0.3rem;
 }
+.button-nonlink:hover,
+.button-nonlink:active {
+  background-color: var(--white);
+}
 
 /* Style the tab */
 .tab {
@@ -57,7 +61,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 1.4rem 1.6rem;
   transition: 0.3s;
 }
 
@@ -74,8 +78,8 @@
 
 /* Style the tab content */
 .tabcontent {
-  padding: 6px 12px;
-  border: 1px solid var(--main-tx-color);
+  padding: 0.6rem 1.2rem;
+  border: 0.1rem solid var(--main-tx-color);
   border-top: none;
 }
 
@@ -83,7 +87,6 @@
   height: 70vh;
   padding-top: 5rem;
 }
-.sec-earning__task {
-  height: 70vh;
-  padding-top: 5rem;
+.taskbox-5 {
+  grid-column: 1 / 3;
 }
