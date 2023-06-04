@@ -36,16 +36,14 @@
 .button-nonlink::after {
   content: "New and Hot";
   background-color: var(--red);
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: var(--white);
   position: absolute;
-  top: -2rem;
+  top: -1rem;
   right: -1rem;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
-.sec-earning__tab {
-  height: 50vh;
-}
+
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -79,4 +77,13 @@
   padding: 6px 12px;
   border: 1px solid var(--main-tx-color);
   border-top: none;
+}
+
+.sec-earning__task {
+  height: 70vh;
+  padding-top: 5rem;
+}
+.sec-earning__task {
+  height: 70vh;
+  padding-top: 5rem;
 }
