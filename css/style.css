@@ -60,16 +60,6 @@
   line-height: 1.5;
 }
 
-.link-hero {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-
-.link-hero a {
-  text-decoration: none;
-  color: var(--main-tx-color);
-}
-
 .sec-how {
   padding: 5rem;
 }
@@ -172,9 +162,6 @@
   color: var(--white);
 }
 
-.hide {
-  display: none;
-}
 .link a {
   text-decoration: none;
   color: var(--main-tx-color);

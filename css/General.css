@@ -49,6 +49,18 @@ body {
 .button-color a:hover {
   background-color: var(--light-bt--color);
 }
+.link-hero {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.link-hero a {
+  text-decoration: none;
+  color: var(--main-tx-color);
+}
+.hide {
+  display: none;
+}
 .grid {
   display: grid;
 }
