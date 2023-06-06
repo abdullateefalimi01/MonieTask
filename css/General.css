@@ -199,7 +199,7 @@ body {
 }
 
 .sec-task {
-  height: 200vh;
+  height: 150vh;
   display: flex;
   padding: 3rem;
 }
@@ -216,10 +216,6 @@ body {
 }
 
 .task-box {
-  display: flex;
-
-  flex-direction: column;
-  gap: 0.5rem;
   width: 100%;
 }
 
@@ -247,6 +243,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
   background-color: inherit;
+  color: var(--main-bg-color);
   transition: 0.3s;
 }
 
@@ -263,8 +260,9 @@ body {
 
 /* Style the tab content */
 .tabcontent {
-  border: 0.1rem solid var(--main-tx-color);
-  border-top: none;
+  /* border: 0.1rem solid var(--main-tx-color);
+  border-top: none; */
+  padding: 1rem;
   /* display: flex;
   flex-direction: column;
   justify-content: space-between;
