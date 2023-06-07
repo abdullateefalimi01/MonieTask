@@ -199,7 +199,7 @@ body {
 }
 
 .sec-task {
-  height: 150vh;
+  /* height: 150vh; */
   display: flex;
   padding: 2rem;
 }
