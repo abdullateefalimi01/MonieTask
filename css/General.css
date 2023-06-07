@@ -218,7 +218,10 @@ body {
 .task-box {
   width: 100%;
 }
-
+.task-box h1,
+.task-box p {
+  margin-bottom: 1rem;
+}
 .task:hover {
   background-color: var(--white);
   border: 0.1rem solid var(--white);
@@ -267,7 +270,4 @@ body {
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem; */
-}
-.tabcontent P {
-  margin: 1rem;
 }

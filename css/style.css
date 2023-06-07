@@ -42,11 +42,15 @@
 
 .header-hero,
 .header-About {
-  font-size: 4rem;
   color: var(--main-tx-color);
   line-height: 1.5;
 }
-
+.header-hero {
+  font-size: 4rem;
+}
+.header-About {
+  font-size: 3.5rem;
+}
 .header-hero span {
   background-color: var(--main-tx-color);
   color: var(--main-bg-color);
