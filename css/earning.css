@@ -68,3 +68,7 @@
   background-color: var(--white);
   color: var(--main-bg-color);
 }
+.social-logo {
+  width: 10rem;
+  color: var(--main-bg-color);
+}
