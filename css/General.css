@@ -222,6 +222,12 @@ body {
 .task-box p {
   margin-bottom: 1rem;
 }
+.tabText-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
 .task:hover {
   background-color: var(--white);
   border: 0.1rem solid var(--white);
