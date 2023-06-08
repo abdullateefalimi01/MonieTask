@@ -227,6 +227,8 @@ body {
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 1rem;
+  padding-right: 2rem;
+  text-align: center;
 }
 .task:hover {
   background-color: var(--white);
