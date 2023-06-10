@@ -279,3 +279,16 @@ body {
   justify-content: space-between;
   gap: 1rem; */
 }
+.social-logo {
+  width: 10rem;
+  filter: brightness(0.5) invert(100%) sepia(100%) saturate(10000%)
+    hue-rotate(180deg);
+}
+
+.button-task {
+  list-style: none;
+  margin-bottom: 1rem;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  color: var(--main-tx-color);
+}

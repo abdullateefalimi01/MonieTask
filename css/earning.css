@@ -50,13 +50,7 @@
 .button-nonlink:active {
   background-color: var(--white);
 }
-.button-color {
-  list-style: none;
-  margin-bottom: 1rem;
-  align-items: center;
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
-}
+
 /* .button-color a:visited,
 .button-color a:link {
   background-color: var(--main-bg-color);
@@ -68,8 +62,3 @@
   background-color: var(--white);
   color: var(--main-bg-color);
 } */
-.social-logo {
-  width: 10rem;
-  filter: brightness(0.5) invert(100%) sepia(100%) saturate(10000%)
-    hue-rotate(180deg);
-}
