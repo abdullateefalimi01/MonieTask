@@ -279,10 +279,13 @@ body {
   justify-content: space-between;
   gap: 1rem; */
 }
-.social-logo {
+/* .social-logo {
   width: 10rem;
-  filter: brightness(0.5) invert(100%) sepia(100%) saturate(10000%)
-    hue-rotate(180deg);
+  color: var(--main-bg-color);
+} */
+i {
+  color: var(--main-bg-color);
+  font-size: 4rem;
 }
 
 .button-task {
