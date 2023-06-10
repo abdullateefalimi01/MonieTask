@@ -57,17 +57,17 @@
   background-color: var(--main-bg-color);
   color: var(--main-tx-color);
 }
-.button-color a:visited,
+/* .button-color a:visited,
 .button-color a:link {
   background-color: var(--main-bg-color);
   color: var(--main-tx-color);
   padding: 0.5rem 1rem;
-}
-.button-color a:hover,
+} */
+/* .button-color a:hover,
 .button-color a:active {
   background-color: var(--white);
   color: var(--main-bg-color);
-}
+} */
 .social-logo {
   width: 10rem;
   filter: brightness(0.5) invert(100%) sepia(100%) saturate(10000%)
