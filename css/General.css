@@ -292,3 +292,14 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-tx-color);
 }
+.button-task a:visited,
+.button-task a:link {
+  background-color: var(--main-bg-color);
+  color: var(--main-tx-color);
+  padding: 0.5rem 1rem;
+}
+.button-task a:hover,
+.button-task a:active {
+  background-color: var(--white);
+  color: var(--main-bg-color);
+}
