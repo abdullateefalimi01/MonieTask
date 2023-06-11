@@ -207,12 +207,13 @@ body {
 .task {
   display: flex;
   padding: 1.5rem;
-  gap: 1rem;
+  gap: 3rem;
   align-items: center;
+  font-size: 1.2rem;
   background-color: var(--main-tx-color);
   color: var(--main-bg-color);
   border-top: none;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 
 .task-box {
@@ -230,11 +231,7 @@ body {
   padding-right: 2rem;
   text-align: center;
 }
-.task:hover {
-  background-color: var(--white);
-  border: 0.1rem solid var(--white);
-  border-top: none;
-}
+
 /* Style the tab */
 .tab {
   border: 1px solid var(--main-bg-color);
@@ -279,11 +276,12 @@ body {
   justify-content: space-between;
   gap: 1rem; */
 }
-/* .social-logo {
+/* .social-logo {-+
+  
   width: 10rem;
   color: var(--main-bg-color);
 } */
-i {
+.task i {
   color: var(--main-bg-color);
   font-size: 4rem;
 }
@@ -303,6 +301,6 @@ i {
 }
 .button-task a:hover,
 .button-task a:active {
-  background-color: var(--white);
+  background-color: var(--main-tx-color);
   color: var(--main-bg-color);
 }
