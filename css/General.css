@@ -277,7 +277,7 @@ body {
   gap: 1rem; */
 }
 /* .social-logo {-+
-  
+
   width: 10rem;
   color: var(--main-bg-color);
 } */
@@ -295,12 +295,13 @@ body {
 }
 .button-task a:visited,
 .button-task a:link {
+  text-decoration: none;
   background-color: var(--main-bg-color);
   color: var(--main-tx-color);
   padding: 0.5rem 1rem;
 }
 .button-task a:hover,
 .button-task a:active {
-  background-color: var(--main-tx-color);
+  background-color: var(--white);
   color: var(--main-bg-color);
 }
