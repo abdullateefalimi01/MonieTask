@@ -166,11 +166,6 @@
   color: var(--white);
 }
 
-.link a {
-  text-decoration: none;
-  color: var(--main-tx-color);
-}
-
 /* Next & previous buttons */
 .prev,
 .next {

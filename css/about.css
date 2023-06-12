@@ -1,3 +1,27 @@
 .header-about {
   height: 70vh;
 }
+.about-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.about-headerText {
+  background-color: var(--main-tx-color);
+  color: var(--main-bg-color);
+  padding: 0.5rem 1rem;
+
+  border-radius: 1.6rem;
+  width: 45.5rem;
+}
+.about-listText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 5rem;
+}
+.about-listText li {
+  list-style: none;
+}
