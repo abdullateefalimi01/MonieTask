@@ -240,6 +240,7 @@ body {
   margin-bottom: 1rem;
   padding-right: 2rem;
   text-align: center;
+  background-color: var(--main-bg-color);
 }
 
 /* Style the tab */

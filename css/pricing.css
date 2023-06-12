@@ -15,4 +15,5 @@
 .sec-pricing p {
   font-size: 2rem;
   padding: 2rem;
+  background-color: var(--main-bg-color);
 }
