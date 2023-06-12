@@ -1,6 +1,6 @@
 /* #0c1d36 */
 :root {
-  --main-bg-color: #0d1d36;
+  --main-bg-color: #0d1c35;
   --main-tx-color: #f9cc0b;
   --white: #ffffff;
 }
@@ -25,12 +25,14 @@ html {
 body {
   font-size: 1.5rem;
   font-family: Amaranth-regular;
-  background-color: var(--main-bg-color);
-  /* background-image: url("../img/Seamless_Background.png"),
-    linear-gradient(rgba(13, 29, 54, 0.5), rgba(13, 29, 54, 0.5));
-  background-repeat: repeat; */
+  /* background-color: var(--main-bg-color); */
+  background: url("../img/background.png");
+
   color: var(--white);
 }
+/* section {
+ 
+} */
 .container {
   max-width: 120rem;
   margin: 0 auto;
