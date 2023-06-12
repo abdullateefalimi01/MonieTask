@@ -38,6 +38,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  background-color: var(--main-bg-color);
 }
 
 .header-hero,
@@ -72,6 +73,7 @@
   text-align: center;
   color: var(--main-tx-color);
   margin-bottom: 2rem;
+  background-color: var(--main-bg-color);
 }
 .container-how {
   display: flex;
@@ -112,6 +114,8 @@
   width: 55rem;
 }
 .text-box__About {
+  background-color: var(--main-bg-color);
+
   padding: 10rem;
   display: flex;
   flex-direction: column;
@@ -151,6 +155,8 @@
   position: relative;
   display: flex;
   margin: auto;
+  background-color: var(--main-bg-color);
+  padding: 2rem;
 }
 
 /* Hide the images by default */
