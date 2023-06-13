@@ -26,3 +26,12 @@
 .about-listText li {
   list-style: none;
 }
+.tabcontent {
+  background-color: var(--main-tx-color);
+  color: var(--main-bg-color);
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

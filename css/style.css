@@ -170,6 +170,7 @@
 }
 .slides-text {
   color: var(--white);
+  background-color: var(--main-bg-color);
 }
 
 /* Next & previous buttons */
