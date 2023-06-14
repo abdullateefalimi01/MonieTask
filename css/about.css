@@ -36,7 +36,7 @@
 .flex {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 .About-contentbox {
   display: flex;
@@ -63,9 +63,9 @@
 .About-contentbox div > p {
   color: var(--main-bg-color);
 }
-.tabAbout-textbox {
+/* .tabAbout-textbox {
   margin-bottom: 2rem;
-}
+} */
 .tabAbout-textbox img {
   width: 90rem;
 }
