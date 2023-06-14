@@ -63,3 +63,9 @@
 .About-contentbox div > p {
   color: var(--main-bg-color);
 }
+.tabAbout-textbox {
+  margin-bottom: 2rem;
+}
+.tabAbout-textbox img {
+  width: 90rem;
+}
