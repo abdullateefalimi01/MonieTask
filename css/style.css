@@ -75,29 +75,7 @@
   margin-bottom: 2rem;
   background-color: var(--main-bg-color);
 }
-.container-how {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--main-tx-color);
-  align-items: center;
-  padding: 2rem;
-}
-.how-icon__box {
-  border: 0.2rem dotted var(--main-bg-color);
-  border-radius: 50%;
-  padding: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-.how-icon__box > ion-icon {
-  color: var(--main-bg-color);
-}
-.how-header {
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
+
 .how-text {
   text-align: center;
   color: var(--main-bg-color);
