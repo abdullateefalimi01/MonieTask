@@ -108,7 +108,7 @@
   display: flex;
   gap: 0.5rem;
 }
-.list-About li > ion-icon {
+.list-About li > i {
   color: var(--main-tx-color);
 }
 .paragraph-About {

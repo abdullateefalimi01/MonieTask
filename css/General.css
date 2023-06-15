@@ -59,7 +59,7 @@ body {
 }
 .link-hero {
   font-size: 1.5rem;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .link-hero a {

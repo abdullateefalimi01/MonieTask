@@ -69,3 +69,6 @@
 .tabAbout-textbox img {
   width: 90rem;
 }
+.link-hero a {
+  color: var(--main-bg-color);
+}
