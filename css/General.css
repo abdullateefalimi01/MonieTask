@@ -324,7 +324,7 @@ body {
 .center {
   text-align: center;
 }
-container-how {
+.container-how {
   display: flex;
   flex-direction: column;
   background-color: var(--main-tx-color);
@@ -338,7 +338,7 @@ container-how {
   text-align: center;
   margin-bottom: 1rem;
 }
-.how-icon__box > ion-icon {
+.how-icon__box > i {
   color: var(--main-bg-color);
 }
 .how-header {
