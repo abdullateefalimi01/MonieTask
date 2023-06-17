@@ -334,6 +334,7 @@ body {
 .how-icon__box {
   border: 0.2rem dotted var(--main-bg-color);
   border-radius: 50%;
+  font-size: 3rem;
   padding: 1rem;
   text-align: center;
   margin-bottom: 1rem;

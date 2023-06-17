@@ -47,12 +47,6 @@
   padding: 2rem;
   margin-bottom: 2rem;
 }
-.About-contentbox i {
-  font-size: 5rem;
-  border: 0.5rem dotted var(--main-bg-color);
-  padding: 1rem;
-  border-radius: 1.6rem;
-}
 
 .About-contentbox div {
   display: flex;
