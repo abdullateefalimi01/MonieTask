@@ -75,6 +75,7 @@
   background-color: var(--main-bg-color);
   width: 100%;
   z-index: 1;
+  padding: 1rem 7.5rem;
 }
 
 /* Style the subnav links */
@@ -82,7 +83,16 @@
   color: var(--main-tx-color);
   text-decoration: none;
 }
-
+.subcategory-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.subnav-content h1 {
+  background-color: var(--main-tx-color);
+  color: var(--main-bg-color);
+  margin-bottom: 1rem;
+}
 /* Add a grey background color on hover */
 /* .subnav-content a:hover {
   background-color: #eee;
