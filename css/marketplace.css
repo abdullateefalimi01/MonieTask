@@ -91,6 +91,8 @@
 .subnav-content h1 {
   background-color: var(--main-tx-color);
   color: var(--main-bg-color);
+  display: inline-block;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
 /* Add a grey background color on hover */
