@@ -35,7 +35,7 @@
 /* The navigation menu */
 .navbar {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   overflow: hidden;
   background-color: var(--main-bg-color);
   color: var(--main-tx-color);
