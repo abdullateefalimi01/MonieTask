@@ -108,6 +108,72 @@
 .sec-market {
   background-color: var(--main-bg-color);
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 5fr;
   gap: 1rem;
+}
+.product-item {
+  background-color: var(--main-tx-color);
+  padding: 0.5rem;
+  color: var(--main-bg-color);
+}
+.product-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.product-item,
+.product-active,
+.product-tagprice {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.product-img {
+  width: 15rem;
+}
+.product-tag,
+.product-active,
+.product-info,
+.product-commision,
+.product-tagprice,
+.product-per {
+  font-size: 1.1rem;
+}
+.product-commision {
+  margin-bottom: 1rem;
+}
+.product-active p,
+.product-tag,
+.product-tagprice .product-newprice,
+.product-tagprice .product-oldprice {
+  background-color: var(--main-bg-color);
+  color: var(--main-tx-color);
+  padding: 0.2rem;
+}
+.product-info,
+.product-commision {
+  text-decoration: none;
+  background-color: var(--main-bg-color);
+  color: var(--white);
+  padding: 0.1rem;
+}
+.product-buttonbox {
+  font-size: 1.1rem;
+  display: flex;
+}
+.product-buttonbox .button-none,
+.product-buttonbox .button-color {
+  list-style: none;
+}
+.product-buttonbox .button-none a,
+.product-buttonbox .button-color a {
+  text-decoration: none;
+}
+
+.product-buttonbox .button-none a {
+  color: var(--main-bg-color);
+}
+.product-buttonbox .button-color a {
+  background-color: var(--main-bg-color);
+  color: var(--white);
 }
