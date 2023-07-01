@@ -110,11 +110,16 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
   gap: 1rem;
+  margin: 2rem;
 }
 .product-item {
   background-color: var(--main-tx-color);
   padding: 0.5rem;
   color: var(--main-bg-color);
+}
+.product-imagebox {
+  display: flex;
+  align-items: center;
 }
 .product-textbox {
   display: flex;
@@ -129,7 +134,7 @@
 }
 
 .product-img {
-  width: 15rem;
+  width: 21rem;
 }
 .product-tag,
 .product-active,
@@ -139,31 +144,37 @@
 .product-per {
   font-size: 1.1rem;
 }
-.product-commision {
-  margin-bottom: 1rem;
-}
+/* .product-commision {
+  margin-bottom: rem;
+} */
 .product-active p,
 .product-tag,
 .product-tagprice .product-newprice,
-.product-tagprice .product-oldprice {
+.product-tagprice .product-oldprice,
+.product-per {
   background-color: var(--main-bg-color);
   color: var(--main-tx-color);
-  padding: 0.2rem;
+  padding: 0.5rem;
 }
 .product-info,
 .product-commision {
   text-decoration: none;
   background-color: var(--main-bg-color);
   color: var(--white);
-  padding: 0.1rem;
+  padding: 0.5rem;
 }
 .product-buttonbox {
   font-size: 1.1rem;
   display: flex;
+  gap: 1.2rem;
+  text-align: center;
+  flex-direction: column;
 }
+
 .product-buttonbox .button-none,
 .product-buttonbox .button-color {
   list-style: none;
+  padding: 0;
 }
 .product-buttonbox .button-none a,
 .product-buttonbox .button-color a {
