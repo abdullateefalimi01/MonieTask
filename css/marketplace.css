@@ -110,7 +110,8 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
   gap: 1rem;
-  margin: 2rem;
+  /* margin: 2rem; */
+  padding: 1rem;
 }
 .product-item {
   background-color: var(--main-tx-color);
@@ -120,6 +121,7 @@
 .product-imagebox {
   display: flex;
   align-items: center;
+  background-color: var(--main-bg-color);
 }
 .product-textbox {
   display: flex;
@@ -174,15 +176,21 @@
 .product-buttonbox .button-none,
 .product-buttonbox .button-color {
   list-style: none;
-  padding: 0;
+  padding: 1rem;
 }
 .product-buttonbox .button-none a,
 .product-buttonbox .button-color a {
   text-decoration: none;
 }
 
-.product-buttonbox .button-none a {
+.product-buttonbox .button-none a:link,
+.product-buttonbox .button-none a:visited {
   color: var(--main-bg-color);
+}
+.product-buttonbox .button-none a:hover,
+.product-buttonbox .button-none a:active {
+  background-color: var(--main-bg-color);
+  color: var(--white);
 }
 .product-buttonbox .button-color a {
   background-color: var(--main-bg-color);

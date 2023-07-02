@@ -106,7 +106,7 @@ body {
 }
 .navigation-menu {
   display: flex;
-  padding: 2rem 15rem;
+  padding: 2rem 5rem;
   justify-content: space-between;
   align-items: center;
   height: 15vh;
