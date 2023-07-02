@@ -192,7 +192,13 @@
   background-color: var(--main-bg-color);
   color: var(--white);
 }
-.product-buttonbox .button-color a {
+.product-buttonbox .button-color a:link,
+.product-buttonbox .button-color a:visited {
+  background-color: var(--main-bg-color);
+  color: var(--white);
+}
+.product-buttonbox .button-color a:hover,
+.product-buttonbox .button-color a:active {
   background-color: var(--main-bg-color);
   color: var(--white);
 }
