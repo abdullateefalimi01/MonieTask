@@ -40,6 +40,8 @@
 .filter-PriceBox label > input[type="number"] {
   width: 7rem;
   height: 3rem;
+  background-color: var(--main-bg-color);
+  color: var(--main-tx-color);
 }
 
 .filter-Countrybox select,
