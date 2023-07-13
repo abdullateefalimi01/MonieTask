@@ -46,6 +46,7 @@
 .filter-Countrybox select > option {
   background-color: var(--main-tx-color);
   color: var(--main-bg-color);
+  height: 3rem;
 }
 /* The navigation menu */
 .navbar {
