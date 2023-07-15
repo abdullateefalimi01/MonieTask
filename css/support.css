@@ -1,3 +1,20 @@
 .sec-support {
   background-color: var(--main-bg-color);
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.sec-support h1,
+.sec-support h2 {
+  color: var(--main-tx-color);
+}
+
+.sec-support figure {
+  background-color: var(--red);
+  width: 70rem;
+  padding: 1rem;
+}
+.sec-support figure h3 {
+  /* color: var(--main-tx-color); */
 }

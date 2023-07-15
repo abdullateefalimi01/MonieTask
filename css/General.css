@@ -26,11 +26,12 @@ html {
 body {
   font-size: 1.5rem;
   font-family: Amaranth-regular;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
 
   background: url("../img/NicePng_social-icons-png-transparent_2823184.png"),
     linear-gradient(rgba(13, 28, 53), rgba(13, 28, 53));
   color: var(--white);
+  background-blend-mode: soft-light;
 }
 
 /* section {
