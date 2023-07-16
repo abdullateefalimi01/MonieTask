@@ -1,0 +1,22 @@
+.sec-login {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.left-side {
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+}
+.right-side {
+  background-color: var(--main-tx-color);
+}
+.left-side,
+.right-side {
+  height: 40rem;
+  padding: 3rem;
+}
+
+.left-side img {
+  width: 30rem;
+}
