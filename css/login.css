@@ -7,6 +7,8 @@
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 .right-side {
   background-color: var(--main-tx-color);
@@ -14,9 +16,22 @@
 .left-side,
 .right-side {
   height: 40rem;
-  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .left-side img {
   width: 30rem;
+}
+.left-side button {
+  border: none;
+  color: var(--main-bg-color);
+  background-color: var(--main-tx-color);
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 16rem;
+}
+
+.left-side button {
 }
