@@ -349,3 +349,14 @@ body {
   padding: 1rem;
   margin-bottom: 1rem;
 }
+.sec-help {
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 1rem 2rem;
+}
+.sec-help h1 {
+  color: var(--main-tx-color);
+}
