@@ -1,9 +1,9 @@
 /* #0c1d36 */
 :root {
-  --main-bg-color: #0d1c35;
-  --main-tx-color: #f9cc0b;
-  --white: #ffffff;
-  --red: #ff0000;
+  --monietask-bg-color: #0d1c35;
+  --monietask-tx-color: #f9cc0b;
+  --monietask-white: #ffffff;
+  --monietask-red: #ff0000;
 }
 
 @font-face {
