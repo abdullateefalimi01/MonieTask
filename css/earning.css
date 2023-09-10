@@ -10,7 +10,7 @@
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
 }
 
 .hero-2 {
@@ -19,12 +19,12 @@
 }
 
 .earning-headertext {
-  color: var(--main-tx-color);
+  color: var(--monietask-tx-color);
   font-size: 3rem;
 }
 .button-nonlink {
-  background-color: var(--main-tx-color);
-  color: var(--main-bg-color);
+  background-color: var(--monietask-tx-color);
+  color: var(--monietask-bg-color);
   border: none;
   font-size: 1.7rem;
   padding: 1rem;
@@ -32,7 +32,7 @@
 }
 .button-nonlink::after {
   content: "New and Hot";
-  background-color: var(--red);
+  background-color: var(--monietask-red);
   font-size: 1rem;
   color: var(--white);
   position: absolute;
@@ -42,5 +42,5 @@
 }
 .button-nonlink:hover,
 .button-nonlink:active {
-  background-color: var(--white);
+  background-color: var(--monietask-white);
 }

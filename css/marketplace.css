@@ -1,5 +1,5 @@
 .sec-marketplace {
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
   /* padding: 2rem; */
 }
 
@@ -21,14 +21,14 @@
   gap: 1rem;
   justify-content: center;
   padding: 0.5rem;
-  background-color: var(--main-tx-color);
-  color: var(--main-bg-color);
+  background-color: var(--monietask-tx-color);
+  color: var(--monietask-bg-color);
 }
 .filter-GenderBox > h1,
 .filter-GenderBox label,
 .filter-PriceBox h1,
 .filter-Countrybox h1 {
-  color: var(--main-tx-color);
+  color: var(--monietask-tx-color);
 }
 
 .filter-option {
@@ -41,14 +41,14 @@
 .filter-PriceBox label > input[type="number"] {
   width: 7rem;
   height: 3rem;
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-tx-color);
 }
 
 .filter-Countrybox select,
 .filter-Countrybox select > option {
-  background-color: var(--main-tx-color);
-  color: var(--main-bg-color);
+  background-color: var(--monietask-tx-color);
+  color: var(--monietask-bg-color);
   height: 3rem;
 }
 /* The navigation menu */
@@ -56,8 +56,8 @@
   display: flex;
   gap: 1rem;
   overflow: hidden;
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-tx-color);
 }
 
 /* The subnavigation menu */
@@ -73,8 +73,8 @@
   color: white;
   padding: 1.4rem 0;
 
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-tx-color);
 
   font-family: inherit;
   margin: 0;
@@ -83,15 +83,15 @@
 /* Add a red background color to navigation links on hover */
 .navbar a:hover,
 .subnav:hover .subnavbtn {
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-tx-color);
 }
 
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   position: absolute;
   left: 0;
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
   width: 100%;
   z-index: 1;
   padding: 1rem 7.5rem;
@@ -99,7 +99,7 @@
 
 /* Style the subnav links */
 .subnav-content a {
-  color: var(--main-tx-color);
+  color: var(--monietask-tx-color);
   text-decoration: none;
 }
 .subcategory-text {
@@ -108,7 +108,7 @@
   gap: 1rem;
 }
 .subnav-content h1 {
-  background-color: var(--main-tx-color);
+  background-color: var(--monietask-tx-color);
   color: var(--main-bg-color);
   display: inline-block;
   padding: 1rem;
@@ -116,7 +116,7 @@
 }
 
 .sec-market {
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
   display: grid;
   grid-template-columns: 1fr 5fr;
   gap: 1rem;
@@ -144,22 +144,22 @@
 
 .product-buttonbox .button-none a:link,
 .product-buttonbox .button-none a:visited {
-  color: var(--main-bg-color);
+  color: var(--monietask-bg-color);
 }
 .product-buttonbox .button-none a:hover,
 .product-buttonbox .button-none a:active {
-  background-color: var(--main-bg-color);
-  color: var(--white);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-white);
 }
 .product-buttonbox .button-color a:link,
 .product-buttonbox .button-color a:visited {
-  background-color: var(--main-bg-color);
-  color: var(--white);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-white);
 }
 .product-buttonbox .button-color a:hover,
 .product-buttonbox .button-color a:active {
-  background-color: var(--main-bg-color);
-  color: var(--white);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-white);
 }
 
 .product-item {
@@ -217,7 +217,7 @@
   width: 100%;
   height: auto;
   padding: 1.5em 1.5em 2em;
-  background: var(--main-tx-color);
+  background: var(--monietask-tx-color);
   backdrop-filter: blur(1.6rem) saturate(120%);
   transition: 0.3s;
   color: #fff;
@@ -225,7 +225,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  color: var(--main-bg-color);
+  color: var(--monietask-bg-color);
 }
 
 .product-item:hover .details {
@@ -233,12 +233,12 @@
 }
 
 .details h1 {
-  color: var(--main-bg-color);
+  color: var(--monietask-bg-color);
 }
 
 .details h4 {
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-tx-color);
   padding: 1rem;
 }
 
@@ -250,7 +250,7 @@
 .details .price-tag p {
   padding: 0.35rem 0.65rem;
 
-  border: 0.15rem solid var(--main-bg-color);
+  border: 0.15rem solid var(--monietask-bg-color);
   border-radius: 16rem;
 }
 

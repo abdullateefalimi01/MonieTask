@@ -6,12 +6,12 @@
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
 }
 
 .about-headerText {
-  background-color: var(--main-tx-color);
-  color: var(--main-bg-color);
+  background-color: var(--monietask-tx-color);
+  color: var(--monietask-bg-color);
   padding: 0.5rem 1rem;
 
   border-radius: 1.6rem;
@@ -27,11 +27,11 @@
   list-style: none;
 }
 .tabcontent {
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-tx-color);
 }
 .tabcontent p {
-  color: var(--white);
+  color: var(--monietask-white);
 }
 .flex {
   display: flex;
@@ -42,8 +42,8 @@
   display: flex;
   gap: 3rem;
   align-items: center;
-  background-color: var(--main-tx-color);
-  color: var(--main-bg-color);
+  background-color: var(--monietask-tx-color);
+  color: var(--monietask-bg-color);
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -55,7 +55,7 @@
 }
 
 .About-contentbox div > p {
-  color: var(--main-bg-color);
+  color: var(--monietask-bg-color);
 }
 /* .tabAbout-textbox {
   margin-bottom: 2rem;

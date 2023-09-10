@@ -8,12 +8,12 @@
 }
 .sec-pricing h1 {
   font-size: 5rem;
-  background-color: var(--main-tx-color);
-  color: var(--main-bg-color);
+  background-color: var(--monietask-tx-color);
+  color: var(--monietask-bg-color);
   padding: 3rem 2rem;
 }
 .sec-pricing p {
   font-size: 2rem;
   padding: 2rem;
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
 }

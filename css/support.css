@@ -1,5 +1,5 @@
 .sec-support {
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
   display: flex;
   gap: 2rem;
   flex-direction: column;

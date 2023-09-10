@@ -13,13 +13,13 @@ a:hover {
   text-decoration: none;
 }
 .link {
-  color: var(--main-bg-color);
+  color: var(--monietask-bg-color);
 }
 .link:hover {
-  color: var(--main-bg-color);
+  color: var(--monietask-bg-color);
 }
 h4 {
-  color: var(--main-bg-color);
+  color: var(--monietask-bg-color);
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ h6 {
   padding: 0;
   margin: 1rem auto;
   cursor: pointer;
-  background-color: var(--main-tx-color);
+  background-color: var(--monietask-tx-color);
 }
 
 .checkbox:checked + label:before,
@@ -68,8 +68,8 @@ h6 {
   width: 3.6rem;
   height: 3.6rem;
   border-radius: 50%;
-  color: var(--main-tx-color);
-  background-color: var(--main-bg-color);
+  color: var(--monietask-tx-color);
+  background-color: var(--monietask-bg-color);
   content: "\eb4f";
   z-index: 20;
   top: -1rem;
@@ -108,7 +108,7 @@ h6 {
 .card-back {
   width: 100%;
   height: 100%;
-  background-color: var(--main-tx-color);
+  background-color: var(--monietask-tx-color);
 
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg");
   background-position: bottom center;
@@ -145,8 +145,8 @@ h6 {
   border-radius: 0.4rem;
   font-size: 1.4rem;
   outline: none;
-  color: var(--main-tx-color);
-  background-color: var(--main-bg-color);
+  color: var(--monietask-tx-color);
+  background-color: var(--monietask-bg-color);
   border: none;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -159,13 +159,13 @@ h6 {
   box-shadow: 0 0.4rem 0.8rem 0 rgba(21, 21, 21, 0.2);
 }
 .input-icon {
-  background-color: var(--main-bg-color);
+  background-color: var(--monietask-bg-color);
   height: 4.8rem;
   font-size: 2.4rem;
   display: flex;
   align-items: center;
   padding: 1rem;
-  color: var(--main-tx-color);
+  color: var(--monietask-tx-color);
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
@@ -194,7 +194,7 @@ h6 {
   -ms-flex-pack: center;
   text-align: center;
   border: none;
-  background-color: var(--main-bg-color);
-  color: var(--main-tx-color);
+  background-color: var(--monietask-bg-color);
+  color: var(--monietask-tx-color);
   box-shadow: 0 0.8rem 2.4rem 0 rgba(255, 235, 167, 0.2);
 }
